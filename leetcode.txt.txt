@@ -1,0 +1,15 @@
+let x: number = 486;
+let x1 : number = x % 10;
+let x2: number = Math.floor(x / 10) % 10;
+let x3: number = Math.floor(x / 100) % 10;
+
+
+
+if(x3 == x1)
+{
+  console.log(x1 + x2 + x3);
+}
+else
+{
+  console.log(x1 * x2 * x3);
+}
